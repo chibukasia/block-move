@@ -22,6 +22,7 @@ function moveRight (){
         block2.style.backgroundColor='greenyellow'
         para.style.color = 'greenyellow'
         para.style.backgroundColor = 'black'
+        para.textContent = 'Moving to the right... Color is Greenyellow'
     }
 }
 function moveLeft (){
@@ -32,6 +33,7 @@ function moveLeft (){
         block2.style.left = `${leftPositionInt -5}px`
         block2.style.backgroundColor = 'orange'
         para.style.color = 'orange';
+        para.textContent = 'Moving to the left... Color is Orange'
 
     }
 }
@@ -44,6 +46,7 @@ function moveUp (){
         block2.style.backgroundColor = 'coral'
         para.style.color = 'coral';
         para.style.backgroundColor= 'black'
+        para.textContent = 'Moving to the top... Color is Coral'
     }
 }
 
@@ -55,5 +58,6 @@ function moveDown (){
         block2.style.bottom = `${downPositionInt - 5}px`
         block2.style.backgroundColor = 'white'
         para.style.color = 'white'
+        para.textContent = 'Moving to the bottom... Color is Black'
     }
 }
